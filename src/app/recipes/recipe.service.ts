@@ -3,6 +3,7 @@ import { Recipe } from "./recipe.model";
 
 export class RecipeServices {
    
+    selectedRecipe
     private recipes = [
         new Recipe('A Test recipe',
          'This is simply a test', 
